@@ -8,6 +8,7 @@ To Use:
 3. Upon direction, input your desired values in the fields provided
 4. Upon program completion, check the active directory for the program's output files
 
-Bugs/Errors:
-1. I was unable to figure out how to count the data in the CSV files in order to complete the requirements for the third output file, so there is none. Therefore, there will be only two user inputs for the outputted file names instead of three.
-2. As much as I tried, there might still be duplicates of students in classes due to the source data containing them, in some cases classses having over 200 students.
+Fixes:
+1. Made sure each course had at most 18 students assigned to it
+2. Modernized the code: added course and student classes, implemented class methods, and used a separate function for scheduling
+3. Added comprehensive documentation
